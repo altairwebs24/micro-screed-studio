@@ -1,0 +1,4 @@
+- [ ] Build five-page flooring website with gallery and WhatsApp booking form.
+- [ ] Upload supplied logo and project images to the public bucket; use public media URLs in site.
+- [ ] Apply shared identity and page-specific metadata; initialize Vite plugins array explicitly.
+- [ ] Run relevant tests, verify build logs and booking interaction, and commit changes.

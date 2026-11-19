@@ -1,5 +1,13 @@
 {
   "version": "7",
   "dialect": "postgresql",
-  "entries": []
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1795079283260,
+      "tag": "0000_allow_public_flooring_gallery_reads",
+      "breakpoints": true
+    }
+  ]
 }

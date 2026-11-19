@@ -1,0 +1,2 @@
+CREATE POLICY "Public can view Micro Screed website media" ON storage.objects FOR SELECT TO anon, authenticated USING (bucket_id = 'micro-screed-public');
+CREATE POLICY "Signed-in users can upload Micro Screed website media" ON storage.objects FOR INSERT TO authenticated WITH CHECK (bucket_id = 'micro-screed-public');
