@@ -371,7 +371,7 @@
   .header-book-button svg { width: 15px; height: 15px; }
   .mobile-menu-button { display: inline-flex; flex: 0 0 auto; }
   .home-hero { min-height: 650px; align-items: end; }
-  .home-hero-image { object-position: 47% center; }
+  .home-hero-image { object-position: 47% 78%; }
   .home-hero-shade { background: linear-gradient(0deg, color-mix(in oklab, var(--foreground) 88%, transparent) 0%, color-mix(in oklab, var(--foreground) 50%, transparent) 58%, color-mix(in oklab, var(--foreground) 4%, transparent) 100%); }
   .home-hero-copy { width: calc(100% - 40px); margin-inline: 20px; padding: 54px 0 100px; }
   .home-hero h1 { max-width: 440px; font-size: 70px; }

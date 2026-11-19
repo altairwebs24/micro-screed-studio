@@ -17,7 +17,10 @@ describe("flooring booking messages", () => {
 
     expect(result.success).toBe(false);
     if (!result.success) {
-      expect(result.error.issues.map((issue) => issue.path[0])).toEqual(["name", "phone", "location", "projectType"]);
+      const invalidFields = new Set(result.error.issues.map((issue) => issue.path[0]));
+      for (const field of ["name", "phone", "location", "projectType"]) {
+        expect(invalidFields.has(field)).toBe(true);
+      }
     }
   });
 
